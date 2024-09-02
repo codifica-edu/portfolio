@@ -23,3 +23,20 @@
     background: url("img/hero.jpg");
     background-size: cover;
 }
+
+/* imagem seção sobre */
+.img-sobre {
+    height: 50vh;
+    width: auto;
+}
+
+/* seção linguagens */
+.linguagensTxt.card {
+    height: 300px;
+    cursor: pointer;
+}
+
+.linguagensTxt:hover {
+    border: 1px solid #334836;
+    background-color: rgba(140, 179, 127, 0.1);
+}

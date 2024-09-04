@@ -13,6 +13,15 @@
 }
 
 /* textos hero header */
+.glass {
+    /* From https://css.glass */
+    background: rgba(102, 123, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+}
+
 .hero-title {
     font-size: 4.5rem;
 }
@@ -59,4 +68,14 @@
 .contatoTxt.card {
     height: 150px;
     cursor: pointer;
+}
+
+/* footer */
+.footerIcon {
+    width: 16px;
+}
+
+/* espaçamento */
+#sobre, #linguagens, #portfolio, #contato {
+    padding: 5rem 0;
 }

@@ -1,3 +1,17 @@
+/* navbar */
+.navbar {
+    background-color: #006342;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 /* textos hero header */
 .hero-title {
     font-size: 4.5rem;
@@ -39,4 +53,10 @@
 .linguagensTxt:hover {
     border: 1px solid #334836;
     background-color: rgba(140, 179, 127, 0.1);
+}
+
+/* seção contato */
+.contatoTxt.card {
+    height: 150px;
+    cursor: pointer;
 }
